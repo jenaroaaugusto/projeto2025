@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Delius&family=Fleur+De+Leah&family=Lavishly+Yours&family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
     <script>
       tailwind.config = {
         content: ["./src/**/*.{html,js}"],
@@ -95,18 +95,44 @@
     .pincelada-4 {
         background-color: #89c7f2; /* Azul mais claro */
     }
+
     .monsieur-la-doulaise-regular {
       font-family: "Monsieur La Doulaise", cursive;
       font-weight: 400;
       font-style: normal;
     }
 
-  .lavishly-yours-regular {
-    font-family: "Lavishly Yours", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
+    .lavishly-yours-regular {
+      font-family: "Lavishly Yours", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
 
+    .fleur-de-leah-regular {
+      font-family: "Fleur De Leah", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .alumni-sans-pinstripe-regular {
+      font-family: "Alumni Sans Pinstripe", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .alumni-sans-pinstripe-regular-italic {
+      font-family: "Alumni Sans Pinstripe", sans-serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    .delius-regular {
+      font-family: "Delius", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    
 
     </style>
 </head>
@@ -120,19 +146,20 @@
     </header>
     <section class="h-full flex justify-center">
       <div class="container text-center mb-5">
-        <h1 class="text-6xl pb-5 monsieur-la-doulaise-regular">Emília <br>& <br>Jenáro</h1>
-        <p class="text-lg ">Estamos muito felizes em compartilhar este momento com vocês!</p>
-        <p class="text-lg">Aqui você encontra todas as informações sobre o nosso casamento.</p>
+        <h1 class="text-6xl pb-5 monsieur-la-doulaise-regular py-5">Emília <br>& <br>Jenáro</h1>
+        <p class="text-2xl delius-regular ">Estamos muito felizes em compartilhar este momento com vocês!
+          <br> Aqui você encontra todas as informações sobre o nosso casamento.
+        </p>
       </div>
     </section>
-    <section class="mt-10">
-      <section class="flex items-center justify-center min-h-screen ">
+    <section class="mt-10 delius-regular">
+      <section class="flex items-center justify-center min-h-[30vw] ">
         <div class="bg-[#F1FBF4] p-8 rounded shadow-md text-center" style="width: 600px;">
           <!-- Título -->
-          <h1 class="text-6xl monsieur-la-doulaise-regular text-gray-700 mb-6">Save the date</h1>
+          <h1 class="text-6xl  text-gray-700 mb-6">Save the date</h1>
           
           <!-- Mês e Ano -->
-          <h2 class="text-2xl font-serif text-gray-800 tracking-wide mb-4">OUTUBRO 2025</h2>
+          <h2 class="text-2xl delius-regular text-gray-800 tracking-wide mb-4">OUTUBRO 2025</h2>
           
           <!-- Semana -->
           <div class="grid grid-cols-7 text-gray-600 text-lg font-medium mb-6">
@@ -189,17 +216,17 @@
         </div>
       </section>
     </section>
-    <section class="flex justify-center">
+    <section class="flex justify-center delius-regular">
       <div class="container text-center mt-5">
         <div class="flex flex-col md:flex-row justify-center gap-3 ">
           <div class="flex flex-col justify-start me-5 bg-[#F1FBF4] p-4">
-            <h1 class="monsieur-la-doulaise-regular text-4xl">Manual <br>das<br> madrinhas</h1>
+            <h1 class=" text-xl py-3">Manual das madrinhas</h1>
             <div class="flex grid ">
               <div class="md:w-1/2 p-2">
                 <div class="card flex flex-col w-72">
                   <img src="imagens/vestido.webp" class="card-img-top" alt="Presente 1">
                   <div class="card-body">
-                    <h5 class="card-title text-4xl lavishly-yours-regular">Sugestão de cores</h5>
+                    <h5 class="card-title text-xl">Sugestão de cores</h5>
                   </div>
                 </div>
               </div>
@@ -211,13 +238,13 @@
             </div>
           </div>
           <div class="flex flex-col justify-center bg-[#F1FBF4] p-4">
-            <h1 class="monsieur-la-doulaise-regular text-4xl">Manual <br>dos<br> padrinhos</h1>
+            <h1 class=" text-xl py-3">Manual dos padrinhos</h1>
             <div class="flex grid ">
               <div class="md:w-1/2 p-2">
                 <div class="card flex flex-col w-72">
                   <img src="imagens/vestido.webp" class="card-img-top" alt="Presente 1">
                   <div class="card-body">
-                    <h5 class="card-title text-4xl lavishly-yours-regular">Sugestão de cores</h5>
+                    <h5 class="card-title text-xl">Sugestão de cores</h5>
                   </div>
                 </div>
               </div>
@@ -243,70 +270,7 @@
         </div>
       </div>
     </section>
-    <section class="mt-10">
-      <section class="flex items-center justify-center min-h-screen ">
-        <div class="bg-[#F1FBF4] p-8 rounded shadow-md text-center" style="width: 600px;">
-          <!-- Título -->
-          <h1 class="text-6xl monsieur-la-doulaise-regular text-gray-700 mb-6">Save the date</h1>
-          
-          <!-- Mês e Ano -->
-          <h2 class="text-2xl font-serif text-gray-800 tracking-wide mb-4">OUTUBRO 2025</h2>
-          
-          <!-- Semana -->
-          <div class="grid grid-cols-7 text-gray-600 text-lg font-medium mb-6">
-            <span>D</span>
-            <span>S</span>
-            <span>T</span>
-            <span>Q</span>
-            <span>Q</span>
-            <span>S</span>
-            <span>S</span>
-          </div>
-          
-          <!-- Dias -->
-          <div class="grid grid-cols-7 gap-y-4 text-lg font-semibold text-gray-700">
-            <!-- Dias do mês anterior -->
-            <div></div><div></div><div></div><div></div><div></div><div></div>
-            
-            <!-- Dias do mês -->
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>4</span>
-            <span>5</span>
-            <span>6</span>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
-            
-            <span>            10
-            </span>
-            <span>11</span>
-            <span>12</span>
-            <span>13</span>
-            <span>14</span>
-            <span>15</span>
-            <span>16</span>
-            <span>17</span>
-            <span>18</span>
-            <span>19</span>
-            <span>20</span>
-            <span>21</span>
-            <span>22</span>
-            <span>23</span>
-            <span>24</span>
-            <span class="relative text-red-500">
-              <span class="absolute inset-0 border border-red-500 rounded-full"></span>
-              25</span>
-            <span>26</span>
-            <span>27</span>
-            <span>28</span>
-            <span>29</span>
-            <span>30</span>
-          </div>
-        </div>
-      </section>
-    </section>
+ 
 
     <section class="w-screen justify-center flex text-center flex-col"> 
       <h1 class="text-6xl text-gray-700 mb-6 monsieur-la-doulaise-regular"> Para o grande dia</h1>
